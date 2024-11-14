@@ -10,13 +10,11 @@ const Wrapper = styled.section`
   justify-content: center;
   align-items: center;
   gap: 20px;
-  /* width: 100%; */
   width: fit-content;
   height: calc(100vh - 102px);
   background: #fff;
   margin: 0 auto;
   padding: 0 20px;
-  /* color: #fff; */
 `;
 
 const Header = styled.div`
@@ -34,11 +32,6 @@ const Contents = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
-`;
-
-const Title = styled.div`
-  font-size: 30px;
-  margin: 20px 0 10px;
 `;
 
 const LogoImg = styled.div`
@@ -69,7 +62,6 @@ const Home = () => {
     <Wrapper>
       <Header>나와 어울리는 겨울간식은?</Header>
       <Contents>
-        {/* <Title>나에게 맞는 주인님은?</Title> */}
         <LogoImg>
           <img className="rounded-circle" src="/snack/mainphoto.jpg" />
         </LogoImg>

@@ -10,6 +10,7 @@ const Wrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
   @media screen and (max-width: 780px) {
   }
 `;

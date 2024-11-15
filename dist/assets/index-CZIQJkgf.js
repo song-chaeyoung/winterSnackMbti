@@ -184,10 +184,12 @@ table {
   align-items: center;
   gap: 20px;
   width: fit-content;
-  height: calc(100vh - 102px);
+  min-height: calc(100vh - 102px);
+  height: 100%;
   background: #fff;
   margin: 0 auto;
   padding: 0 20px;
+  /* padding-bottom: 60px; */
 `,O1=We.div`
   font-size: 50px;
   line-height: 120%;
@@ -287,6 +289,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
   @media screen and (max-width: 780px) {
   }
 `,J1=We.div`

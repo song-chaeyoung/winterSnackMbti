@@ -11,10 +11,12 @@ const Wrapper = styled.section`
   align-items: center;
   gap: 20px;
   width: fit-content;
-  height: calc(100vh - 102px);
+  min-height: calc(100vh - 102px);
+  height: 100%;
   background: #fff;
   margin: 0 auto;
   padding: 0 20px;
+  /* padding-bottom: 60px; */
 `;
 
 const Header = styled.div`
